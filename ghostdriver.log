@@ -1,0 +1,37 @@
+[INFO  - 2017-09-08T07:03:30.333Z] GhostDriver - Main - running on port 52114
+[INFO  - 2017-09-08T07:03:30.995Z] Session [d25a5ce0-9463-11e7-befa-a51621bcf776] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-09-08T07:03:30.995Z] Session [d25a5ce0-9463-11e7-befa-a51621bcf776] - page.customHeaders:  - {}
+[INFO  - 2017-09-08T07:03:30.995Z] Session [d25a5ce0-9463-11e7-befa-a51621bcf776] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-09-08T07:03:30.995Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d25a5ce0-9463-11e7-befa-a51621bcf776
+[ERROR - 2017-09-08T07:04:27.144Z] Session [d25a5ce0-9463-11e7-befa-a51621bcf776] - page.onError - msg: TypeError: undefined is not an object (evaluating 'player.tech_.hls')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-09-08T07:04:27.145Z] Session [d25a5ce0-9463-11e7-befa-a51621bcf776] - page.onError - stack:
+  global code (https://avgle.com/templates/frontend/avgle-main-ah.js?4:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-09-08T07:04:27.154Z] Session [d25a5ce0-9463-11e7-befa-a51621bcf776] - page.onError - msg: TypeError: undefined is not an object (evaluating '_detectBrowser2.default.version')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-09-08T07:04:27.154Z] Session [d25a5ce0-9463-11e7-befa-a51621bcf776] - page.onError - stack:
+  (anonymous function) (https://avgle.com/cdn-cgi/apps/body/fvn_FUZs6s-QlgD7zuBSHkYldkg.js:6)
+  (anonymous function) (https://avgle.com/cdn-cgi/apps/body/fvn_FUZs6s-QlgD7zuBSHkYldkg.js:9)
+  __webpack_require__ (https://avgle.com/cdn-cgi/apps/body/fvn_FUZs6s-QlgD7zuBSHkYldkg.js:2)
+  (anonymous function) (https://avgle.com/cdn-cgi/apps/body/fvn_FUZs6s-QlgD7zuBSHkYldkg.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-09-08T07:04:27.217Z] Session [d25a5ce0-9463-11e7-befa-a51621bcf776] - page.onError - msg: VIDEOJS: ERROR: (CODE:4 MEDIA_ERR_SRC_NOT_SUPPORTED) No compatible source was found for this media. [object Object]
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-09-08T07:04:27.217Z] Session [d25a5ce0-9463-11e7-befa-a51621bcf776] - page.onError - stack:
+  apply (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-09-08T07:04:27.218Z] Session [d25a5ce0-9463-11e7-befa-a51621bcf776] - page.onError - msg: VIDEOJS: ERROR: TypeError: undefined is not an object (evaluating 'this.tech({IWillNotUseThisInPlugins:!0}).currentSource_')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-09-08T07:04:27.218Z] Session [d25a5ce0-9463-11e7-befa-a51621bcf776] - page.onError - stack:
+  apply (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2017-09-08T07:08:30.349Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
