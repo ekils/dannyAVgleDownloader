@@ -11,4 +11,6 @@
 
 
 * 整能針對該網址進行下載，若空網址會報錯，若網址錯誤會報錯。
-![GitHub Logo](https://github.com/ekils/dannyAVgleDownloader/blob/master/dannyAVgleDownloader/png/LOG_IN.gif)
+
+
+![GitHub Logo](https://github.com/ekils/dannyAVgleDownloader/blob/master/png/LOG_IN.gif)
