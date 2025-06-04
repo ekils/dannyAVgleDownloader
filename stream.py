@@ -1,8 +1,8 @@
-#coding=utf-8
+# -*- coding: utf-8 -*-
 
 
 from bs4 import BeautifulSoup
-from pip._vendor.distlib.compat import raw_input
+
 from selenium import webdriver
 import requests
 import os
@@ -12,7 +12,7 @@ import re
 driver = webdriver.PhantomJS(executable_path='/usr/local/Cellar/phantomjs/2.1.1/bin/phantomjs')
 
 # 輸入網址：
-url= raw_input('Paste website adress:\n')
+url = input('Paste website adress:\n')
 pat2= re.compile('https://avgle.com/video/[0-9]*')
 filename= pat2.search(url).group().split('https://avgle.com/video/')[1]
 
