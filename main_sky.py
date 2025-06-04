@@ -1,4 +1,4 @@
-#coding=utf-
+# coding=utf-8
 
 # import test
 from PyQt5 import QtCore, QtGui, QtWidgets
